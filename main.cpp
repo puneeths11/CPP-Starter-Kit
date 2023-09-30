@@ -6,7 +6,7 @@
  Program 1 : Hello world porgram
 -----------------------------------------------------------------------------*/
 #include<iostream>        //preprocessor compiler
-using namespace std;      //std:: defined at first
+using namespace std;      //allows us to use cout and endl directly without the std:: prefix. 
 int main(){               //main function exceutes first
     cout<<"Hello world";  //cout c-console,out
     return 0;             // retuning no value (not strict necessary can be automatically add by the compiler)
